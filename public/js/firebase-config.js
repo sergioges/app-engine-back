@@ -13,12 +13,12 @@
 // En el navegador debes incluir directamente los valores,
 // no puedes acceder a process.env como en Node.js
 const firebaseConfig = {
-  apiKey: "AIzaSyAIhVz4D3rP-HjkoUubC1d07yHbOERFydc",
-  authDomain: "reservas-cuca-de-llum.web.app",
-  projectId: "reservas-cuca-de-llum",
-  storageBucket: "reservas-cuca-de-llum.firebasestorage.app",
-  messagingSenderId: "615565367020",
-  appId: "1:615565367020:web:0f5061a2acc03c4ae3b7c9"
+  apiKey: process.env.GOOGLE_LOGIN_API_KEY,
+  authDomain: process.env.GOOGLE_LOGIN_AUTH_DOMAIN,
+  projectId: process.env.GOOGLE_LOGIN_PROJECT_ID,
+  storageBucket: process.env.GOOGLE_LOGIN_STORAGE_BUCKET,
+  messagingSenderId: process.env.GOOGLE_LOGIN_MESSAGING_SENDER_ID,
+  appId: process.env.GOOGLE_LOGIN_APP_ID
 };
 
 // Inicializar Firebase
