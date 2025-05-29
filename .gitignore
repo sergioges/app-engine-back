@@ -1,0 +1,40 @@
+# Dependencias
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+package-lock.json
+
+# Ambiente
+.env
+.env.local
+.env.development
+.env.production
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Directorios de distribución
+dist/
+build/
+out/
+
+# Directorios del sistema
+.DS_Store
+Thumbs.db
+
+# Editores de código
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Directorios de cobertura
+coverage/
+.nyc_output/
+
+# Otros
+.cache/
+tmp/
